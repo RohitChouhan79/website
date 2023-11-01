@@ -1,0 +1,656 @@
+@font-face {
+    font-family: "lulu";
+    src: url(//RightGrotesk-CompactBlack.otf);
+}
+
+@font-face {
+    font-family: pilu;
+    src: url(//RightGrotesk-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.1px solid white;
+    
+}
+
+#nav{
+    width: 100%;
+    height: 20%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    
+}
+#left-nav{
+    width: 52%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    /* background-color: red; */
+}
+#right-nav{
+    width: 20%;
+    height: 100%;
+    
+}
+
+#left-leftnav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1.5em;
+    margin-right: 0.75em;
+    cursor: pointer;
+    position: relative;
+    margin-left: 10%;
+}
+#box-rightleftnav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 15%;
+    height: 30%;
+    gap: 5px;
+}
+
+#box-rightleftnav a{
+    font: 30px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+#eql{
+    height: 4px;
+    width: 1.3em;
+    background: white;
+    border-radius: 9px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    position: initial;
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+#headingpage1{
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    height: 100%;
+    /* margin-left: 35%;  */
+    /* background-color: red;    */
+}
+#headingpage1 h1{
+    font-family: pilu;
+    font-size: 150px;  
+    font-weight: 900;
+    color: yellow;
+    /* font-size: 70px; */
+    line-height: 1;
+    width: 100%;
+    height: 50%;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+#page2{
+    height: 120%;
+    width: 100%;
+    background-color: yellow;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.1px solid white;
+    display: flex;
+    position: relative;
+    /* align-items: center; */
+}
+
+#page2-left{
+    width: 50%;
+    height: 100%;
+    padding-top: 250px;
+    padding-left: 240px;
+    
+
+}
+
+.dwnlimg{
+    margin-top: 15px; 
+}
+
+#page2-left h1{
+    font-size: 120px;
+    font-family:pilu;
+    font-weight: 900;
+}
+
+#page2-right{
+    width: 50%;
+    height: 100%;
+    padding-top: 130px;
+    padding-left: 40px;
+
+}
+
+#chat1{
+    position: absolute;
+    right: 560px;
+    top: 400px;
+}
+
+#chat2{
+    position: absolute;
+    right: 640px;
+    top: 620px;
+}
+
+#chat3{
+    position: absolute;
+    right: 220px;
+    top: 300px; 
+}
+#chat4{
+    height: 220px;
+    position: absolute;
+
+    right: 156px;
+    bottom: 0px; 
+}
+
+#chat5{
+    height: 100px;
+    position: absolute;
+
+    right: 140px;
+    bottom: 200px;
+}
+
+
+#page3{
+    height: 300%;
+    width: 100%;
+    
+    background-color: yellow;
+    background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg );
+    /* background-size: cover;   */
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between  ;
+}
+
+#page3top{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+}
+
+#page3-left{
+    width: 50%;
+    height: 100%;
+    padding-top: 250px;
+    padding-left: 240px;
+    /* background-color: red; */
+}
+#page3-left h1{
+    font-size: 120px;
+    font-family:"lulu";
+    font-weight: 900;
+    color: yellow;
+}
+
+#page3-right{
+    width: 40%;
+    height: 100%;
+    padding-top: 200px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+#page3-right p{
+    font-size: 35px;    
+    font-family:"lulu";
+    font-weight: 200;
+    color: white;  
+}
+
+#page3-right button{
+    margin-right: 195px;
+    margin-top: 50px;
+    font-size: 30px;    
+    font-family:"lulu";
+    font-weight: 200;
+    border-radius: 50px;
+    border-color: yellow;
+    padding: 20px;
+    color: black;  
+    background-color: yellow;
+}
+
+#page3-right button:hover{
+    background-color: black;
+    color: yellow;
+}
+
+
+#page3bottom{
+    height: 40%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* display: flex; */
+    /* background-color: red; */
+}
+#page3-btm-left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+#page3-btm-right{
+    height: 100%;
+    width: 50%;
+}
+
+#page3-btm-right #girl{
+    margin-left: 100px;
+    height: 800px;
+    border-radius:30px ;
+}
+
+#page3down{
+    height: 15%;
+    width: 100%;
+    /* background-color: red; */
+    /* display: flex; */
+    /* background-color: red; */
+}
+
+
+#page3-btm-left  p{
+    margin-left: 100px;
+    font-size: 35px;    
+    font-family:"lulu";
+    font-weight: 200;
+    color: white;  
+}
+
+#page3-btm-left button{
+    margin-right: 195px;
+    margin-top: 50px;
+    font-size: 30px;    
+    font-family:"lulu";
+    font-weight: 200;
+    border-radius: 50px;
+    border-color: yellow;
+    padding: 20px;
+    color: black;  
+    background-color: yellow;
+}
+
+
+#page3dwn-b1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.text{
+    font-size: 100px;
+    color:#FFE30A;
+}
+
+.text img{
+    height: 100px;
+}
+
+#page3dwn-b1 button{
+    /* margin-right: 195px;
+    margin-top: 50px; */
+    margin-bottom: 60px;
+    font-size: 30px;    
+    font-family:"lulu";
+    font-weight: 200;
+    border-radius: 50px;
+    border-color: yellow;
+    padding: 10px;
+    color: black;  
+    background-color: yellow;
+}
+
+#page4{
+    height: 300%;
+    width: 100%;
+    
+    background-color:#151400;
+    background-image: url(https://www.yubo.live/assets/img/purple-cloud.svg );
+    /* background-size: cover;   */
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#box1{
+    width: 600px;
+    height: 1200px;
+    background-color: red;
+    margin-left: 670px;
+    margin-top: -50px;
+    border-radius: 60px;
+    background-image: url(https://images.prismic.io/yubo/4e7a5333-9e65-4a60-a2d1-7b9680e002f2_Blog_CommunityTipsAndTricks.png?auto=compress,format);
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#box1 button{
+    /* margin-right: 195px; */
+    margin-left: 10px;
+    margin-top: 50px;
+    /* margin-bottom: 60px; */
+    font-size: 30px;    
+    font-family:"lulu";
+    font-weight: 200;
+    border-radius: 10px;
+    border-color: red;
+    padding: 5px;
+    color: black;
+    width: 120px;
+    
+    background-color: red;
+}
+
+#box1 #abc{
+    text-decoration: none;
+    color: #151400;
+}
+#box1-1{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#box1-1 #pqr{
+    text-decoration: none;
+    color: white;
+    font-size: 55px;
+    font-weight: 900;
+    
+    
+}
+
+#box1-1 #cce{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 45px;
+}
+
+
+#box2{
+    width: 400px;
+    height: 850px;
+    /* background-color: red; */
+    /* margin-bottom: 400px; */
+    position: relative;
+    bottom: 15%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    /* background-color: #fff; */
+    background-image: url(https://images.prismic.io/yubo/42e1a41b-e054-4f52-a214-e3ea5e475aa4_Blog_Yubo+Horoscope.png?auto=compress,format);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#box2 button{
+    /* margin-right: 195px; */
+    margin-left:220px;
+    margin-top: 20px;
+    /* margin-bottom: 60px; */
+    font-size: 30px;    
+    font-family:"lulu";
+    font-weight: 200;
+    border-radius: 10px;
+    border-color:#8E6BFF;
+    padding: 5px;
+    color: black;
+    width: 120px;
+    
+    background-color: #8E6BFF;
+}
+
+#box2 #abc{
+    text-decoration: none;
+    color: #151400;
+}
+#box2-1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+}
+
+#box2-1 #pqr{
+    text-decoration: none;
+    color: white;
+    font-size: 55px;
+    font-weight: 900;
+    
+    
+}
+
+#box2-1 #cce{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 45px;
+}
+
+
+#box3{
+    width: 400px;
+    height: 900px;
+    background-color: red;  
+    /* margin-bottom: 400px; */
+    position: relative;
+    bottom: 20%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    /* background-color: #fff; */
+    background-image: url(https://images.prismic.io/yubo/f34dcf26-d146-4205-ab86-46e4daef0781_Blog_Community+Building+and+Making+Friends+on+Yubo.png?auto=compress,format);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box3 button{
+    /* margin-right: 195px; */
+    margin-left: 10px;
+    margin-top: 20px;
+    /* margin-bottom: 60px; */
+    font-size: 30px;    
+    font-family:"lulu";
+    font-weight: 200;
+    border-radius: 10px;
+    border-color: red;
+    padding: 5px;
+    color: black;
+    width: 120px;
+    
+    background-color: red;
+}
+
+#box3 #abc{
+    text-decoration: none;
+    color: #151400;
+}
+#box3-1{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#box3-1 #pqr{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    
+    
+}
+
+#box3-1 #cce{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 45px;
+}
+
+
+#page5{
+    height: 70%;
+    width: 100%;
+    
+    background-color:#976BFF;
+    background-image: url(https://www.yubo.live/assets/img/footer-bg.svg);
+    /* background-size: cover;   */
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#page5 #imgeee{
+    height: 400px;
+    width: 500px;
+    margin-top: -300px;
+    margin-left: 40%;
+    
+}
+
+#lastbox{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+#lastbox1{
+    width: 100%;
+    height: 60%;
+    /* background-color: red; */
+    color: #151400;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+#lastbox2{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#lastbox a{
+    list-style: none;
+    text-decoration: none;
+    color: #151400;
+}
+
+#support ul{
+    list-style: none;
+}
+#privacy ul{
+    list-style: none;
+}
+#safety ul{
+    list-style: none;
+    color: #151400;
+}
+
+#community ul{
+    list-style: none;
+    color: #151400;
+}
+
+#about ul{
+    list-style: none;
+    color: #151400;
+}
+
+#lastbox2 i{
+    font-size: 50px;
+}

@@ -1,0 +1,380 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    
+    border-top: 0.5px solid black;
+    padding-top: 50px;
+    
+}
+
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: #454545;
+    position: fixed; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    color: #eee;
+    font-size: 15px;
+    font-weight: 100;
+    top: 0;
+}
+#nav2{
+    height: 50px;
+    width: 100%;
+    /* padding-top: 100px; */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+a:hover{
+    text-decoration: underline       ;
+}
+.btm{
+    height: 100%;
+}
+.text{
+    width: 100%;
+    text-align: center;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+}
+
+.text i{
+    color: #eee;
+    font-weight: 200;
+    font-size: 60px;
+    /* margin-top: -50%;  */
+    
+}
+.text h2{
+    color: #eee;
+    font-weight: 200;
+    font-size: 20px;
+    /* margin-top: -50%; */
+}
+.text a{
+    font-size: 20px;
+    font-weight: 400;
+    color: royalblue;
+    padding: 10px;
+}
+
+video{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 87%;
+  
+}
+
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+
+
+.page2-1{
+    height: 100%;
+    background-image:url(https://www.apple.com/v/home/ba/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #eee;
+    text-align: center;
+    padding: 30px;
+}
+
+.page2-1 h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.page2-1 h2{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.page2-1 a{
+    font-size: 20px;
+    font-weight: 400;
+    color: royalblue;
+    padding: 30px;
+}
+
+/* .text{
+    width: 60px;
+    height: 60px;
+    color: #454545;
+} */
+
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+
+
+.page3-1{
+    height: 100%;
+    background-image:url(https://www.apple.com/v/home/ba/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #eee;
+    text-align: center;
+    padding: 30px;
+}
+
+.page3-1 h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+}
+
+.page3-1 h2{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    color: black;
+}
+
+.page3-1 a{
+    font-size: 20px;
+    font-weight: 400;
+    color: royalblue;
+    padding: 30px;
+}
+
+#page4{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#box1{
+    /* background-color: blue; */
+    width: 49%;
+    height: 100%;
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px;
+}
+#box1 h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+}
+#box1 h2{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.box1 a{
+    font-size: 10px;
+    font-weight: 300;
+    color: royalblue;
+    padding: 5px;
+}
+
+
+#box2{
+    /* background-color: blue; */
+    width: 49%;
+    height: 100%;
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/apple-watch-pride/promo_pride23__cnpic94fthle_small_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px;
+}
+
+#box2 h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+}
+#box2 h2{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.box2 a{
+    font-size: 10px;
+    font-weight: 300;
+    color: royalblue;
+    padding: 5px;
+}
+
+
+#page5,#page6{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#box3{
+    /* background-color: blue; */
+    width: 49%;
+    height: 100%;
+    background-image: url(https://www.apple.com/v/home/ba/images/heroes/ipad-pro/hero_ipadpro__bpt7a9d8sh42_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px;
+}
+#box3 h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+#box3 h2{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.box3 a{
+    font-size: 10px;
+    font-weight: 300;
+    color: royalblue;
+    padding: 5px;
+}
+
+
+#box4{
+    /* background-color: blue; */
+    width: 49%;
+    height: 100%;
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_small_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px;
+}
+
+#box4 h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+#box4 h2{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.box4 a{
+    font-size: 10px;
+    font-weight: 300;
+    color: royalblue;
+    padding: 5px;
+}
+
+#box5{
+    /* background-color: blue; */
+    width: 49%;
+    height: 100%;
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/homepod/promo_homepod__f7jnolq94m2y_small_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px;
+}
+#box5 h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+#box5 h2{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.box5 a{
+    font-size: 10px;
+    font-weight: 300;
+    color:#2997FF;
+    padding: 5px;
+}
+
+
+#box6{
+    /* background-color: blue; */
+    width: 49%;
+    height: 100%;
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/apple-card/tile__cauwwcyyn9hy_small_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px;
+}
+
+#box6 h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+}
+#box6 h2{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.box6 a{
+    font-size: 10px;
+    font-weight: 300;
+    color: royalblue;
+    padding: 20px;
+    margin: 10px;
+}

@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    /* font-family: 'Tinos', serif; */
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    border-top: 0.5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(abc.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Tinos', serif;
+    
+}
+
+
+#nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 15px;
+    
+}
+
+#nav img{
+    height: 20px;
+}
+
+#nav-menu-bar{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 30px;
+    gap: 20px;
+    
+}
+#reg-nav-bar{
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #D5664A;
+    border-radius: 30px;
+    gap: 20px;
+}
+
+#box-page1{
+    height: 70%;
+    width: 50%;
+    /* background-color: #fbfbfb;    */
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+
+#box-page1 #ma{
+    font-size: 80px;
+    width: 100%;
+}
+
+#box-page1 h6{
+    font-size: 20px;
+    width: 100%;
+}
+#box-page1 i{
+    font-size: 30px;
+    width: 100%;
+}
+
+#button-box{
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #D5664A;
+    border-radius: 30px;
+    gap: 20px;
+}
+
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color:#6A6969;
+}
+
+#letdnc{
+    height: 10%;
+    width: 100%;
+    background-color: #0F0F0F;
+    color: aliceblue;
+
+}
+
+#letdnc h1{
+    font-size: 55px;
+    word-spacing: 25px;
+    letter-spacing: 5px;
+}
+
+
+.sketchfab-embed-wrapper{
+    /* background-color:; */
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 500px;
+    height: 90%;
+    width: 100%;
+}
+
+.sketchfab-embed-wrapper iframe{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 156px;
+    height: 100%;
+    width: 100%;
+}
+
+#page3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tinos', serif;
+}
+
+#page3-box{
+    width: 80%;
+    height: 80%;
+    background-color: #D5664A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(page3.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#date-page3{
+    width: 40%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#days p{
+    font-size: 30px;
+}
+#days h1{
+    font-size: 80px;
+    color: #D5664A;
+}
+
+#hours p{
+    font-size: 30px;
+}
+#hours h1{
+    font-size: 80px;
+    color:#D5664A;
+}
+
+#minute p{
+    font-size: 30px;
+}
+#minute h1{
+    font-size: 80px;
+    color: #D5664A;
+}
+
+#viewdetails{
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #D5664A;
+    border-radius: 30px;
+    gap: 20px;
+}
+
+
+#page4{
+    width: 100%;
+    height: 100vh;
+    background-color: #EFEEEB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Tinos', serif;
+}
+
+#page4 #h1-page4{
+    font-size: 50px;
+    font-family: 'Tinos', serif;
+}
+
+#page4-box h2{
+    font-size: 30px;
+    font-family: 'Tinos', serif;
+}
+
+#page4-box h5{
+    font-size: 30px;
+    color: #D5664A;
+    font-family: 'Tinos', serif;
+}
+
+
+
+#page4-box{
+    width: 90%;
+    height: 60%;
+    /* background-color: #D5664A; */
+    margin-left: 10%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    
+}
+
+/* #page4 #our-class{
+        width: 14%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        border-radius: 30px;
+        gap: 20px;
+        margin-left: 10%;
+    } */
+
+#h1-page4{
+    margin-left: 10%;
+}
+
+#page4-box1,#page4-box2,#page4-box3{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    /* background-color: #0F0F0F; */
+}
+
+
+
+#page4-box1-1{
+    height: 80%;
+    width: 100%;
+    /* background-color: #0F0F0F; */
+    background-image: url(https://images.unsplash.com/photo-1495791185843-c73f2269f669?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page4-box1-2{
+    height: 80%;
+    width: 100%;
+    /* background-color: #0F0F0F;
+     */
+
+     background-image: url(https://images.unsplash.com/photo-1518834107812-67b0b7c58434?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFsbGV0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+
+#page4-box1-3{
+    height: 80%;
+    width: 100%;
+    /* background-color: #0F0F0F; */
+    background-image: url(https://images.unsplash.com/photo-1600395010878-e554c285589f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGhpcCUyMGhvcHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+#page5{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #EFEEEB;
+}
+
+#page5-box{
+    width: 80%;
+    height: 60%;
+    /* background-color: #D5664A; */
+    margin-left: 10%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    
+}
+
+#our-class{
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    color: #D5664A;
+    border: 0.5px solid ;
+    border-color: #D5664A;   
+    border-radius: 30px;
+    gap: 20px;
+    margin-left: 10%;
+}
+
+#h1-page5{
+    margin-left: 10%;
+}
+
+#page5-box1,#page5-box2,#page5-box3{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    /* background-color: #0F0F0F; */
+}
+
+
+
+#page5-box1-1{
+    height: 80%;
+    width: 100%;
+    /* background-color: #0F0F0F; */
+    background-image: url(https://assets.website-files.com/639ae04616d4d98614111527/639b434044382ed81381764c_Teacher%203.webp);
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page5-box1-2{
+    height: 80%;
+    width: 100%;
+    /* background-color: #0F0F0F;
+     */
+
+     background-image: url(https://assets.website-files.com/639ae04616d4d98614111527/639b433ec681a28ac66c2ba5_Teacher%20%202.webp);
+     border-bottom-right-radius: 80px;
+     border-top-left-radius: 80px;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+
+#page5-box1-3{
+    height: 80%;
+    width: 100%;
+    /* background-color: #0F0F0F; */
+    background-image: url(https://assets.website-files.com/639ae04616d4d98614111527/639b433ce131caa957883d7e_Teacher%201.webp);
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#page5 #h1-page5{
+    font-size: 50px;
+    font-family: 'Tinos', serif;
+}
+
+#page5-box h2{
+    font-size: 30px;
+    font-family: 'Tinos', serif;
+}
+
+#page5-box h5{
+    font-size: 20px;
+    color: #D5664A;
+    font-family: 'Tinos', serif;
+}
+
+#page6{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#page6-1{
+    width: 70%;
+    height: 100%;
+    background-color: #0F0F0F;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#page6-2{
+    width: 30%;
+    height: 100%;
+    /* background-color: #0F0F0F; */
+    /* color: aliceblue; */
+    background-image: url(girldnc.webp);
+    /* border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#h1-page6{
+    margin-left: 10%;
+    /* top: 10%; */
+    font-size: 80px;
+    font-family: 'Tinos', serif;
+}
+
+#page6 p{
+    margin-left: 10%;
+    font-size: 25px;
+    font-family: 'Tinos', serif;
+}
+
+#page6 h5{
+    margin-left: 10%;
+    font-size: 30px;
+    font-family: 'Tinos', serif;
+}
+
+#Testimonials{
+    width: 20%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    color: #D5664A;
+    border: 0.5px solid ;
+    border-color: #D5664A;   
+    border-radius: 30px;
+    gap: 20px;
+    margin-left: 10%;
+}
+
+#page7{
+    width: 100%;
+    height: 40vh;
+    background-color:#0F0F0F;
+    /* object-fit: cover;
+    overflow: hidden; */
+    
+}
+
+
+
+    #page7-1 video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+#page8{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    background-color:black;
+}
+
+#page8-1{
+    width: 100%;
+    height: 100%;
+    background-color:#D5664A;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#page8-1 h1{
+    margin-left: 30%;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+}
+
+#page8-1 h4{
+    margin-left: 30%;
+    font-family: 'Tinos', serif;
+    font-size: 30px;
+
+}
+
+#page8-1 #icon{
+    margin-left: 30%;
+    font-family: 'Tinos', serif;
+    font-size: 30px;
+    gap: 50px;
+}
+
